@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MY新闻</string>
+    <string name="sort">换一换</string>
+    <string name="mail">订阅</string>
+</resources>

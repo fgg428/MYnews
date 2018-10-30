@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="work.wang.mynews.weather"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#4876FF">
+        <EditText
+            android:id="@+id/weather_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:hint="输入city(如：北京)"
+            android:background="@null"/>
+        <Button
+            android:id="@+id/weather_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查找"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#87CEEB"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/weather_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
